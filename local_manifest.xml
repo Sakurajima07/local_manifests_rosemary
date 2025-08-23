@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="mt6785" fetch="https://github.com/xiaomi-mt6785-dev" />
+
+  <!-- device tree -->
+  <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="mt6785" revision="lineage-22.2" />
+
+  <!-- SELinux policies -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-22.2" />
+
+  <!-- hardware supports -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LOS" revision="lineage-22.2" />
+
+  <!-- kernel tree -->
+  <project path="device/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="mt6785" revision="lineage-22.2">
+
+  <!-- vendor tree -->
+  <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="mt6785" revision="lineage-22.2" />
+
+</manifest>
