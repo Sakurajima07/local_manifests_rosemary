@@ -14,7 +14,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LOS" revision="lineage-22.2" />
 
   <!-- kernel tree -->
-  <project path="device/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="mt6785" revision="lineage-22.2">
+  <project path="kernel/xiaomi/rosemary" name="android_kernel_xiaomi_mt6785" remote="mt6785" revision="lineage-22.2">
 
   <!-- vendor tree -->
   <project path="vendor/xiaomi/rosemary" name="proprietary_vendor_xiaomi_rosemary" remote="mt6785" revision="lineage-22.2" />
